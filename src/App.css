@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.header-app {
+  width: 100%;
+  height: 250px
+  ;
+  background-color: rgb(93, 178, 253);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.todo-list{
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.todo-item{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  
+  padding: 1.1em;
+  border-radius: 8px;
+  box-shadow: -1px 0px 5px 4px rgba(212,212,212,0.5);
+  margin-top: 10px;
+
+}
+.done{
+  background-color: rgb(134, 252, 134);
+}
+.undone{
+  background-color: rgb(252, 134, 134);
+}
+.add-task{
+  width: 100%;
+  padding: 1.1em;
+  border-radius: 8px;
+  box-shadow: -1px 0px 5px 4px rgba(212,212,212,0.5);
+  display: flex;
+  flex-direction: column;
+}
+.add-task > * {
+  width: 100%;
+  margin-top: 8px;
+  padding: 8px;
+}
+.add-task button{
+  background-color: rgb(93, 178, 253);
+  padding: 1.1em;
+  color: white;
+  border: none;
+}
+.inps >*{
+  width: 100%;
+  margin-top: 10px;
+padding: 1.1em;
+}
